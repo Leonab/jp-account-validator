@@ -1,12 +1,14 @@
 package com.jpmorgan.accounts.validation.application.dto;
 
-import java.util.List;
-
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+
+import java.util.List;
 
 @Data
 public class AccountValidationRequestDTO {
 
-    private Integer accountNumber;
+    @NotBlank
+    private String accountNumber;
     private List<String> providers;
 }

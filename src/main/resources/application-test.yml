@@ -1,0 +1,12 @@
+jpmorgan:
+  data:
+    providers:
+      -
+        name: abc-test
+        url: https://something.com
+      -
+        name: xyz-test
+        url: https://something.com
+      -
+        name: nan-test
+        url: https://something.com

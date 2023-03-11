@@ -1,0 +1,12 @@
+jpmorgan:
+  data:
+    providers:
+      -
+        name: abc-prod
+        url: https://something.com
+      -
+        name: xyz-prod
+        url: https://something.com
+      -
+        name: nan-prod
+        url: https://something.com

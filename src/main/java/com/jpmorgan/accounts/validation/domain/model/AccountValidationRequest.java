@@ -7,6 +7,6 @@ import java.util.List;
 @Data
 public class AccountValidationRequest {
 
-    private Integer accountNumber;
+    private String accountNumber;
     private List<String> providers;
 }

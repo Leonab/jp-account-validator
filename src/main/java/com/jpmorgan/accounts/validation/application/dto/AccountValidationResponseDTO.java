@@ -7,5 +7,5 @@ import java.util.List;
 @Data
 public class AccountValidationResponseDTO {
 
-    private List<ValidationResponse> validationResponses;
+    private List<ValidationResponseDTO> validationResponses;
 }
